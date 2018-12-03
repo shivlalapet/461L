@@ -15,8 +15,8 @@
 
        <ul>
            <li><a href="/splash.jsp">Home</a></li>
-           <li class="active"><a href="#">Teams</a></li>
-           <li><a href="/leagueslist.jsp">Leagues</a></li>
+           <li><a href="/teamslist.jsp">Teams</a></li>
+           <li class="active"><a href="#">Leagues</a></li>
            <li><a href="/playerslist.jsp">Players</a></li>
            <li><a href="/search.jsp">Search</a></li>
            </ul>
@@ -28,16 +28,16 @@
       <br>
       <br>
       
-      <h2>Top E-Sports Teams</h2>
+      <h2>Top E-Sports Leagues</h2>
       <div class="teamlist">
       <ul>
-      		<li><a href="/team.jsp">Evil Geniuses</a></li>
+      		<li><a href="/league.jsp">Dota 2 League</a></li>
       		<br>
       		<br>
-      		<li><a href="#">Team 2</a></li>
+      		<li><a href="#">League 2</a></li>
       		<br>
       		<br>
-      		<li><a href="#">Team 3</a></li>
+      		<li><a href="#">League 3</a></li>
       		<br>
       		<br>
       </ul>

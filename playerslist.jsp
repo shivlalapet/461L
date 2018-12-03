@@ -15,9 +15,9 @@
 
        <ul>
            <li><a href="/splash.jsp">Home</a></li>
-           <li class="active"><a href="#">Teams</a></li>
+           <li><a href="/teamslist.jsp">Teams</a></li>
            <li><a href="/leagueslist.jsp">Leagues</a></li>
-           <li><a href="/playerslist.jsp">Players</a></li>
+           <li class="active"><a href="#">Players</a></li>
            <li><a href="/search.jsp">Search</a></li>
            </ul>
       </div>
@@ -28,16 +28,16 @@
       <br>
       <br>
       
-      <h2>Top E-Sports Teams</h2>
+      <h2>Top E-Sports Players</h2>
       <div class="teamlist">
       <ul>
-      		<li><a href="/team.jsp">Evil Geniuses</a></li>
+      		<li><a href="/player.jsp">Sumail Hassan</a></li>
       		<br>
       		<br>
-      		<li><a href="#">Team 2</a></li>
+      		<li><a href="#">Player 2</a></li>
       		<br>
       		<br>
-      		<li><a href="#">Team 3</a></li>
+      		<li><a href="#">Player 3</a></li>
       		<br>
       		<br>
       </ul>
