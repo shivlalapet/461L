@@ -17,7 +17,7 @@
            <li><a href="/splash.jsp">Home</a></li>
            <li><a href="/teamslist.jsp">Teams</a></li>
            <li class="active"><a href="#">Leagues</a></li>
-           <li><a href="/playerslist.jsp">Players</a></li>
+           <li id="playertab"><a href="/playerslist.jsp">Players</a></li>
            <li><a href="/search.jsp">Search</a></li>
            </ul>
       </div>

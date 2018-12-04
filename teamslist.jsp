@@ -31,7 +31,7 @@
       <h2>Top E-Sports Teams</h2>
       <div class="teamlist">
       <ul>
-      		<li><a href="/team.jsp">Evil Geniuses</a></li>
+      		<li id="team1"><a href="/team.jsp">Evil Geniuses</a></li>
       		<br>
       		<br>
       		<li><a href="#">Team 2</a></li>

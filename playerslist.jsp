@@ -31,7 +31,7 @@
       <h2>Top E-Sports Players</h2>
       <div class="teamlist">
       <ul>
-      		<li><a href="/player.jsp">Sumail Hassan</a></li>
+      		<li id="player1"><a href="/player.jsp">Sumail Hassan</a></li>
       		<br>
       		<br>
       		<li><a href="#">Player 2</a></li>

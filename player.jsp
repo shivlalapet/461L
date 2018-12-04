@@ -17,7 +17,7 @@
            <li><a href="/splash.jsp">Home</a></li>
            <li><a href="/teamslist.jsp">Teams</a></li>
            <li><a href="/leagueslist.jsp">Leagues</a></li>
-           <li><a href="/playerslist.jsp">Players</a></li>
+           <li id="playertab"><a href="/playerslist.jsp">Players</a></li>
            <li><a href="/search.jsp">Search</a></li>
            </ul>
       </div>
@@ -66,7 +66,7 @@
       <h2> References: <h2>
       <div class="info">
       <p> 1. Sumail "SumaiL" Hassan - Dota 2 Player<br>Last Checked 2018-11-1 6:35 PM </p>
-      <a href="https://www.esportsearnings.com/players/14196-sumail-hassan">https://www.esportsearnings.com/players/14196-sumail-hassan</a>
+      <a id="player1link" href="https://www.esportsearnings.com/players/14196-sumail-hassan">https://www.esportsearnings.com/players/14196-sumail-hassan</a>
 
        &nbsp; 
        <br>      
