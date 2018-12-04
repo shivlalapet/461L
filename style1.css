@@ -1,112 +1,149 @@
-h2{   
+ h2{   
+
       		color:wheat;
+
       		text-align: left;        
-	}  
 
-ul{
+    	}  
+
+
+
+.main ul{
+
    float:right;
+
    list-style-type: none;
+
    margin-top: 25px;
+
 }
 
-ul li{
+
+
+.main ul li{
+
      display: inline-block;
+
 }
 
-ul li a{
+
+
+.main ul li a{
+
         text-decoration: none;
+
         color: #fff;
+
         padding: 5px 20px;
+
         border: 1px solid transparent;
+
         transition: 0.6s ease;
+
 }
 
- ul li a:hover{
+
+
+.main ul li a:hover{
+
           background-color: #fff;
+
           color: #000;
+
 }
 
 
-ul li.active a{	
+
+
+
+.main ul li.active a{
+
 background-color: #fff;
+
           color: #000;
+
 }
+
+.news nav ul li{
+	height: max-height;
+	width: 30%;
+	
+}
+
+
+	
+	
+.news  nav ul li{
+	overflow:hidden; 
+	overflow-y:scroll;
+	}
+
+
 
 .logo img{
+
      float: left;
+
      width: 200px;
+
      height: 200;
+
 }
+
+
 
 .links img{
+
     width: 50px;
+
     height: 50px;
-    align: left;
+
 }
+
+
 
  .main{
+
       margin: auto;
+
 }
+
+
 
 .Player img{
+
       align: middle;
+
 }
+
+
 
 .Player p{
+
 	  float: top;
+
       color: white;
+
 }
+
+
 
 .info {
+
 	color: white;
+
     text-align: left;
-}
 
 
-.Team img{
-      align: middle;
-}
-
-.table td{
-	border: 1px solid wheat;
-        border-color: wheat;
-	text-align: left;
-	color:white;
-}
-
-.table table{
-	border: 2px solid wheat;
-	align: left;
-	width: 70%;
-	height: 20%;
 }
 
 
 
-.teamlist ul{
-	float: left;
-	margin: auto;
-	color: white;
-}
+h4{
 
-.teamlist ul li{
-     display: inline-block;
-     color: white;
-}
 
-.teamlist ul li a{
-        text-decoration: none;
-        color: white;
-        padding: 5px 20px;
-        border: 1px solid transparent;
-        transition: 0.6s ease;
-}
 
-.teamlist ul li a:hover{
-        color: #000;
 }
 
 
-.teamlist ul li.active a{	
-        color: #000;
-}
+
