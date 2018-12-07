@@ -4,6 +4,8 @@
 <html>
       <head><title>Esports.com</title>
       <link rel="stylesheet" type="text/css" href="style1.css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
       </head>
 
 <body bgcolor=black>
@@ -43,12 +45,28 @@
       </div> 
       
       <br>
-      <h2> Stats: </h2>
+      <h2> Player Statistics: </h2>
       <div class="info">
       <h4> Country Ranking: #1</h4>
       <h4> World Ranking: #7</h4>
-      <h4> Top Placements: 1st - 11, 2nd - 10, 3rd - 13 </h4>
-
+      <br>
+      <th>Top Placements</th>      
+      <table>
+        <tr><td>Placement</td><td>Number of Times</td></tr>  
+      	<tr><td>1st</td><td>11</td></tr>
+      	<tr><td>2nd</td><td>10</td></tr>
+      	<tr><td>3rd</td><td>13</td></tr>    
+      </table>
+	  </div>
+	  <br>
+	  <br>
+	  
+	  <div class="wrapper" data-anim="base wrapper">
+  	<div class="circle" data-anim="base left"></div>
+  	<div class="circle" data-anim="base right"></div>
+	</div>		
+	  
+	  <br>	
       <br>
       <div class="links">
 	<a href="https://www.facebook.com/demondoto">
