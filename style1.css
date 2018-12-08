@@ -1,149 +1,261 @@
- h2{   
-
-      		color:wheat;
-
-      		text-align: left;        
-
-    	}  
-
-
-
-.main ul{
-
-   float:right;
-
-   list-style-type: none;
-
-   margin-top: 25px;
-
+* {
+    box-sizing: border-box;
 }
 
-
-
-.main ul li{
-
+.column {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+.column ul li{
      display: inline-block;
-
+     color: white;
 }
 
-
-
-.main ul li a{
-
+.column ul li a{
         text-decoration: none;
-
-        color: #fff;
-
+        color: white;
         padding: 5px 20px;
-
         border: 1px solid transparent;
-
         transition: 0.6s ease;
+}
 
+.column ul li a:hover{
+        color: #000;
 }
 
 
-
-.main ul li a:hover{
-
-          background-color: #fff;
-
-          color: #000;
-
+.column ul li.active a{	
+        color: #000;
 }
 
-
-
-
-
-.main ul li.active a{
-
-background-color: #fff;
-
-          color: #000;
-
+.colAG {
+  width: 25%;
+}
+.colHN {
+  width: 25%;
+}
+.colOT {
+  width: 25%;
+}
+.colUZ {
+  width: 25%;
 }
 
-.news nav ul li{
-	height: max-height;
-	width: 30%;
-	
+h2{   
+      		color:wheat;
+      		text-align: left;        
+	}  
+
+h3{
+	color: blue;
+	text-align: left;
 }
-
-
-	
-	
-.news  nav ul li{
-	overflow:hidden; 
-	overflow-y:scroll;
-	}
-
-
-
-.logo img{
-
-     float: left;
-
-     width: 200px;
-
-     height: 200;
-
-}
-
-
-
-.links img{
-
-    width: 50px;
-
-    height: 50px;
-
-}
-
-
-
- .main{
-
-      margin: auto;
-
-}
-
-
-
-.Player img{
-
-      align: middle;
-
-}
-
-
-
-.Player p{
-
-	  float: top;
-
-      color: white;
-
-}
-
-
-
-.info {
-
-	color: white;
-
-    text-align: left;
-
-
-}
-
-
 
 h4{
+	color: white;
+	text-align: middle;
+}	
+
+p{
+	color:white;
+	text-align: center;
+}
+
+ul{
+   float:right;
+   list-style-type: none;
+   margin-top: 25px;
+}
+
+ul li{
+     display: inline-block;
+}
+
+ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+}
+
+ ul li a:hover{
+          background-color: #fff;
+          color: #000;
+}
 
 
+ul li.active a{	
+background-color: #fff;
+          color: #000;
+}
 
+.logo img{
+     float: left;
+     width: 200px;
+     height: 200;
+}
+
+.links img{
+    width: 50px;
+    height: 50px;
+    align: left;
+}
+
+ .main{
+      margin: auto;
+}
+
+.Player img{
+      align: middle;
+}
+
+.Player p{
+	  float: top;
+      color: white;
+}
+
+.info {
+	color: white;
+    text-align: left;
+}
+
+.info table{
+	border: 2px solid wheat;
+	align: left;
+	width: 40%;
+	height: 20%;
+}
+
+.info td{
+	border: 1px solid wheat;
+    border-color: wheat;
+	text-align: left;
+	color:white;
+}
+
+.info th{
+	color: white;
+}
+
+
+.Team img{
+      align: middle;
+}
+
+.table td{
+	border: 1px solid wheat;
+    border-color: wheat;
+	text-align: middle;
+	color:white;
+}
+
+.table table{
+	border: 2px solid wheat;
+	align: left;
+	width: 70%;
+	height: 20%;
 }
 
 
 
+.teamlist ul{
+	float: left;
+	margin: auto;
+	color: white;
+}
+
+.teamlist ul li{
+     display: inline-block;
+     color: white;
+}
+
+.teamlist ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+}
+
+.teamlist ul li a:hover{
+        color: #000;
+}
+
+
+.teamlist ul li.active a{	
+        color: #000;
+}
+
+<!-- Line Graph -->
+#chartContainer{
+	height: 35%; 
+	width: 50%;
+	background-color:black;
+}
+
+<!-- Progress bar -->
+.wrapper {
+  width: 100px; /* Set the size of the progress bar */
+  height: 100px;
+  position: absolute; /* Enable clipping */
+  align: middle;
+  clip: rect(0px, 100px, 100px, 50px); /* Hide half of the progress bar */
+}
+/* Set the sizes of the elements that make up the progress bar */
+.circle {
+  width: 40%;
+  height: 40%;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+/* Using the data attributes for the animation selectors. */
+/* Base settings for all animated elements */
+div[data-anim~=base] {
+  -webkit-animation-iteration-count: 1;  /* Only run once */
+  -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+  -webkit-animation-timing-function:linear; /* Linear animation */
+}
+
+.wrapper[data-anim~=wrapper] {
+  -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+  -webkit-animation-delay: 3s; /* Wait half of the animation */
+  -webkit-animation-name: close-wrapper; /* Keyframes name */
+}
+
+.circle[data-anim~=left] {
+  -webkit-animation-duration: 6s; /* Full animation time */
+  -webkit-animation-name: left-spin;
+}
+
+.circle[data-anim~=right] {
+  -webkit-animation-duration: 3s; /* Half animation time */
+  -webkit-animation-name: right-spin;
+}
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+@-webkit-keyframes right-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+  to {
+    clip: rect(auto, auto, auto, auto);
+  }
+}
