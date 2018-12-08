@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ page import="models.*, java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
       <head><title>Esports.com</title>
@@ -30,8 +31,17 @@
       <br>
       <br>
       <br>
+      
+      <%
+      //variables to add in once backend is up
+      String nameInput = null; //input/name from the database
+      String usernameInput = null; //get the username, also need for accessing twitch streams 
+      String teamName = null; //get from the team page? or from database 
+      int playerRank = 0; //get the team ranking from database  
+      String linkOut = null; //contains link to a non-ESports Central webpage 	
+      %>
            
-         <center>
+       <center>
        <div class="Player">
         <img src="Sumail.jpg">
         <p> Name: Sumail Hassan <br> Team: Evil Geniuses <br> World Ranking: #7 </p>
@@ -61,12 +71,49 @@
 	  <br>
 	  <br>
 	  
+	  <%
+	  	//Do for teams as well	
+	  	
+	  	//Idea: 4 progess circles, percentage of: 1st,2nd,3rd,4th or less finishes in tournaments
+		
+	  	//Idea: 1 progress circle, percentage of: 1st,2nd,3rd,4th or less fill out the circle
+	  	//		Display percentage below circle
+	  		//int variables for number of wins in each category
+	  		int first = 0;
+	  		int second = 0;
+	  		int third = 0;
+	  		int lowerRank = 0;
+	  		//add them up for the sum
+	  		int sum = 0;
+	  		sum = first + second + third + lowerRank;
+	  		//divide each number by the sum and get the percentage
+	  		float firstPercentage = (int)(first/sum);
+	  		float secondPercentage = (int)(second/sum);
+	  		float thirdPercentage = (int)(third/sum);
+	  		float lowerRankPercentage = (int)(lowerRank/sum);
+	  %>
+	  
 	  <!-- "Progress" Circle to be used for percentage of wins -->
 	  <div class="wrapper" data-anim="base wrapper">
   	<div class="circle" data-anim="base left"></div>
   	<div class="circle" data-anim="base right"></div>
 	</div>		
-	  
+	  <br>
+	  <br>	
+      <br>
+      
+      <!-- Player's twitch stream -->
+      <div class="video">
+      <iframe src="https://www.twitch.tv/suma1l/?channel=puppy&muted=true&autoplay=true"
+    	height="360"
+    	width="440"
+    	frameborder="0"
+    	scrolling="no"
+    	allowfullscreen="true"
+    	align="middle">
+		</iframe>
+      </div>
+      <br>
 	  <br>	
       <br>
       <div class="links">

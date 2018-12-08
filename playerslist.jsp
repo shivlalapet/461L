@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ page import="models.*, java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -28,6 +29,13 @@
       <br>
       <br>
       <br>
+      
+      <!-- write a method for filtering/sorting lists -->
+      	<%
+      	ArrayList<String> results = new ArrayList<>(); 
+      
+      	%>
+      <!-- ------------------------------------------ -->
       
       <h2>Top E-Sports Players</h2>
       <!-- Formerly of class "teamList -->
