@@ -59,7 +59,6 @@ h4{
 
 p{
 	color:white;
-	text-align: center;
 }
 
 ul{
@@ -139,6 +138,10 @@ background-color: #fff;
 	color: white;
 }
 
+.info p{
+	text-align: left;
+}
+
 
 .Team img{
       align: middle;
@@ -200,13 +203,12 @@ background-color: #fff;
   width: 100px; /* Set the size of the progress bar */
   height: 100px;
   position: absolute; /* Enable clipping */
-  align: middle;
   clip: rect(0px, 100px, 100px, 50px); /* Hide half of the progress bar */
 }
 /* Set the sizes of the elements that make up the progress bar */
 .circle {
-  width: 40%;
-  height: 40%;
+  width: 80px;
+  height: 80px;
   border: 10px solid green;
   border-radius: 50px;
   position: absolute;

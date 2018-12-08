@@ -145,7 +145,7 @@
 	  %>
 
 	  
-	  <!-- "Progress" Circle for win percentage -->
+	  <!-- "Progress" Circle for win percentage-->
 	  <div class="wrapper" data-anim="base wrapper">
   	<div class="circle" data-anim="base left"></div>
   	<div class="circle" data-anim="base right"></div>
@@ -157,9 +157,11 @@
       <br>
       <br>
       
-      <!-- Line Graph for earnings over career (up to 10yrs ago?) -->
+      <!-- Line Graph for earnings over career (up to 10yrs ago?)-->
        <div id="chartContainer" style="height:35%; width:50%;"></div>
-      <br><br><br>
+      <br>
+      <br>
+      <br>
       <p style="color:white; text-align: center;">Total Money Earned: $646,175.80</p>
       <br>
       <br>
@@ -204,6 +206,8 @@
 	</a>
       </div>
       
+      </center>
+      
       <br>
       <h2> References: <h2>
       <div class="info">
@@ -223,7 +227,7 @@
        <br>
        <br>
    
-        </center>
+        
 
 </body>
 
