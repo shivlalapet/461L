@@ -61,6 +61,7 @@
 	  <br>
 	  <br>
 	  
+	  <!-- "Progress" Circle to be used for percentage of wins -->
 	  <div class="wrapper" data-anim="base wrapper">
   	<div class="circle" data-anim="base left"></div>
   	<div class="circle" data-anim="base right"></div>
