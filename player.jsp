@@ -87,19 +87,25 @@
 	  		int sum = 0;
 	  		sum = first + second + third + lowerRank;
 	  		//divide each number by the sum and get the percentage
-	  		float firstPercentage = (int)(first/sum);
-	  		float secondPercentage = (int)(second/sum);
-	  		float thirdPercentage = (int)(third/sum);
-	  		float lowerRankPercentage = (int)(lowerRank/sum);
+	  		double firstPercentage = (first/sum)*100;
+	  		double secondPercentage = (second/sum)*100;
+	  		double thirdPercentage = (third/sum)*100;
+	  		double lowerRankPercentage = (lowerRank/sum)*100;
 	  %>
 	  
-	  <!-- "Progress" Circle to be used for percentage of wins -->
+	  <!-- "Progress" Circle for win percentage -->
 	  <div class="wrapper" data-anim="base wrapper">
   	<div class="circle" data-anim="base left"></div>
   	<div class="circle" data-anim="base right"></div>
 	</div>		
 	  <br>
 	  <br>	
+	  <h4>1st Place: </h4>
+	  <p>
+	  <%
+	  double percent = firstPercentage;
+	  %>
+	  </p>
       <br>
       
       <!-- Player's twitch stream -->
