@@ -29,8 +29,7 @@
 
          <center>
        <div class="Player">
-       <!-- Get picture into img directory!!! -->
-        <img src="../img/maxresdefault.jpg">
+        <img src="../img/dota2.png">
         <p> Genre: Dota 2 esports tournament <br> Frequency: Annual <br> Defending Champion: Team Liquid </p>
       </div>
 

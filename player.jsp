@@ -8,52 +8,7 @@
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
       
-      <script type="text/javascript">
-  		window.onload = function () {
-    	var chart = new CanvasJS.Chart("chartContainer",
-    	{
- 
-      	title:{
-      		text: "Earnings - 2018"
-      	},
-      	
-      	axisX: {
-            valueFormatString: "MMM",
-            interval:1,
-            intervalType: "month"
-          },
-          
-        axisY:{
-            includeZero: false
-       
-          },  
-       	
-        data: [
-      	{
-        type: "line",
- 
-        dataPoints: [
-        { x: new Date(2018, 01, 7), y: 2400 },
-        { x: new Date(2018, 01, 21), y: 17000 },
-        { x: new Date(2018, 01, 28), y: 8000 },
-        { x: new Date(2018, 02, 25), y: 10000 },
-        { x: new Date(2018, 03, 11), y: 6000 },
-        { x: new Date(2018, 03, 18), y: 22000 },
-        { x: new Date(2018, 04, 7), y: 7000 },
-        { x: new Date(2018, 05, 12), y: 3500 },
-        { x: new Date(2018, 05, 27), y: 1600 },
-        { x: new Date(2018, 06, 10), y: 4500 },
-        { x: new Date(2018, 07, 29), y: 8000 },
-        { x: new Date(2018, 08, 25), y: 536175.80 },
-        { x: new Date(2018, 11, 18), y: 20000 }
-        ]
-      }
-      ]
-    });
-    chart.render();
-  }
-  </script>
-  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      
   
   <script type="text/javascript">
   		window.onload = function () {
@@ -197,8 +152,9 @@
       <br>
       <br>
       
-      <!-- Line Graph for earnings in 2018-->
+      <!-- Line Graph for earnings in 2018
        <div id="chartContainer" style="height:35%; width:50%;"></div>
+      -->
       <br>
       <br>
       <br>
@@ -207,19 +163,9 @@
 	  <br><br>
       <br><br>
       <br><br>
-      <br><br>
-	  <br><br>
-      <br><br>
-      <br> <br>
-      <br><br>
-	  <br><br>
-      <br><br>
-      <br><br>
-      <br><br>
-	  <br><br>
       <br><br>
       
-             <div id="career" style="height:35%; width:50%;"></div>
+      <div id="career" style="height:35%; width:50%;"></div>
       
       
       <br> <br>
@@ -240,14 +186,15 @@
       <br><br>
       
       <!-- Player's twitch stream -->
-      <div class="video">
-      <iframe src="https://www.twitch.tv/ninja/?channel=ninja&muted=true&autoplay=true"
-    	height="360"
-    	width="440"
-    	frameborder="0"
-    	scrolling="no"
-    	allowfullscreen="true"
-    	align="middle">
+       <div class="Video">
+		<iframe
+			src="https://player.twitch.tv/?channel=sumayyl&muted=true&autoplay=true"
+			height="600"
+			width="850"
+			frameborder="0"
+			scrolling="no"
+			allowfullscreen="true"
+			align = "middle">
 		</iframe>
       </div>
       <br>

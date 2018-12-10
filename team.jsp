@@ -84,25 +84,26 @@
       <br>
       <br>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+	  <br>
       
-      <!-- Line Graph for earnings over span, update to fit team-->
-       <div id="chartContainer" style="height:35%; width:50%;"></div>
-      <br>
-      <br>
-      <br>
-      <p style="color:white; text-align: left;">Total Money Earned: $646,175.80</p>
-      <br>
-      <br>
-      <br>
-	  <br>
-	  <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-	  <br>
+      <center>
+      <div class="Video">
+		<iframe
+			src="https://player.twitch.tv/?channel=evilgeniuses&muted=true&autoplay=true"
+			height="600"
+			width="850"
+			frameborder="0"
+			scrolling="no"
+			allowfullscreen="true"
+			align = "middle">
+		</iframe>
+      </div>
+      
 	  <br>
       <br>
       <br>
@@ -114,7 +115,9 @@
       <img src="../img/twitter.jpg.png">
       <img src="../img/twitch.jpg.png">
       </div>
-
+           </center>
+	  	
+		
       <br>
       <h2> References: <h2>
       <div class="info">
