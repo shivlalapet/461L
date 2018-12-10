@@ -10,7 +10,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="Logo.jpg">
+             <img src="../img/Logo.jpg">
          </div>
 
        <ul>
@@ -31,7 +31,7 @@
            
          <center>
        <div class="Team">
-        <img src="evil.png">
+        <img src="../img/evil.png">
       </div>
 	</center>
 
@@ -110,9 +110,9 @@
       
 
       <div class="links">
-      <img src="facebook.jpg.png">
-      <img src="twitter.jpg.png">
-      <img src="twitch.jpg.png">
+      <img src="../img/facebook.jpg.png">
+      <img src="../img/twitter.jpg.png">
+      <img src="../img/twitch.jpg.png">
       </div>
 
       <br>

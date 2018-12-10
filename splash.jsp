@@ -9,7 +9,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="Logo.jpg">
+             <img src="../img/Logo.jpg">
          </div>
 
 
@@ -24,41 +24,38 @@
       </div>
       <br>
       <br>
-
+      <br>
+      <br>
+        <center>
+	  <h1 style="color:white; text-align:center;"> Welcome to Esports Central</h1>	
       <br>
 
       <br>
       <br>
       <br>
-         <left>
-
-       <div class="Video">
-		<iframe
-			src="https://player.twitch.tv/?channel=puppey&muted=true&autoplay=true"
-			height="360"
-			width="640"
-			frameborder="0"
-			scrolling="no"
-			allowfullscreen="true"
-			align = "right">
-
-		</iframe>
-
-      </div>
-
-
+      
+    
+		<img src="../img/tourney1.jpg" style="height:70%; width:70%">
+		
+      
+      
+      
+   
       <br><br>
+		<br><br>
 
-
-      <h2> Top News: </h2> 
+       
 
       <div class = "info">
+      			  <h2> Top News: </h2>
+      
 
 	  <div class = "news">
-
+	  
+		
         <nav>
 
-            <ul style = "list-style-type:none">
+            <ul id="news" style = "list-style-type:none;">
 
                 <li><a href="https://venturebeat.com/2018/12/09/call-of-duty-world-league-levels-up-its-esports-competition-with-5v5-combat/">Call of Duty World League levels up its esports competition with 5v5 combat</a></li>
 				<br>
@@ -89,7 +86,6 @@
 
 		</div>
       <br>
-		<br></left>
 		
 		<br>      
        <br>
@@ -103,9 +99,21 @@
        <br><br>
        <br><br>
        <br><br><br> <br>
+        <div class="Video">
+		<iframe
+			src="https://player.twitch.tv/?channel=puppey&muted=true&autoplay=true"
+			height="360"
+			width="640"
+			frameborder="0"
+			scrolling="no"
+			allowfullscreen="true"
+			align = "middle">
+
+		</iframe>
+
+      </div>
 		
-		<center>
-		<img src="tourney1.jpg" style="height:40%; width:80%">
+	  </center>		
       
        &nbsp; 
        <br>      
@@ -119,6 +127,6 @@
        <br>
        <br>
        <br>
-        </center>
+        
 </body>
 </html>
