@@ -4,37 +4,56 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<title>Search Results</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
-				integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
-				crossorigin="anonymous">
+		integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
+		crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<style>
+			.tabs div{
+				align:right; <!-- update-css -->			
+			}
+		</style>
 	</head>
+
 	<body>
-		<div>
-			<button class="btn"><i class="fa fa-home"></i> ESportsCentral</button>
-			<button class="btn">Leagues</button>
-			<button class="btn">Teams</button>
-			<button class="btn">Players</button>
-			<form name="searchform" action="search" method="post">
+		<div class="tabs">
+		<form action="/splash.jsp">
+			<button class="btn" type="submit"><i class="fa fa-home"></i> ESportsCentral</button>
+		</form>	
+		<form action="/teamslist.jsp">
+			<button class="btn" type="submit">Teams</button>
+		</form>	
+		<form action="/leagueslist.jsp">
+			<button class="btn" type="submit">Leagues</button>
+		</form>
+		<form action="/playerslist.jsp">	
+			<button class="btn" type="submit">Players</button>
+		</form>	
+		</div>
+		<br>
+		<form name="searchform" action="search" method="post" style="align:center;">
 				Search Database: <i class="fas fa-search"></i><input type="text" name="search"></input> 
 						<input type="submit" value="Submit"></input>
 			</form>
-		</div>
 		<br>
+		
 		<%
 		ArrayList<Instance> results = (ArrayList<Instance>)session.getAttribute("results");
 		if(results != null) {
 			for(int i = 0; i < results.size(); i++) {
+
 		%>
 		<table class="cnt">
 			<tr>
 				<td><a href="instance.jsp"><%=results.get(i).getName()%></a></td>
 			</tr>
+
 				<%
 				if(results.get(i).getType().equals("League")) {
 					LeaguePage result = (LeaguePage)results.get(i);
 					ArrayList<String> teams = result.getTeams();
 					ArrayList<String> topPlayers = result.getTopPlayers();
 				%>
+
 			<tr>
 				<td>Teams: <%=teams.get(0)%>, <%=teams.get(1)%> <%=teams.get(2)%> ...</td>
 			</tr>
@@ -42,6 +61,7 @@
 				<td>Top Ranked Players: <%=topPlayers.get(0)%>, <%=topPlayers.get(1)%>, <%=topPlayers.get(2)%> ...</td>
 			</tr>
 		</table>
+
 				<%
 				} else if(results.get(i).getType().equals("Team")) {
 					TeamPage result = (TeamPage)results.get(i);
@@ -58,9 +78,11 @@
 				} else if(results.get(i).getType() == "Player") {
 					PlayerPage result = (PlayerPage)results.get(i);
 				%>
+
 			<tr>
 				<td>League: <%=result.getLeague()%></td>
 			</tr>
+
 			<tr>
 				<td>Team: <%=result.getTeam()%></td>
 			</tr>

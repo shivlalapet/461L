@@ -10,7 +10,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="Logo.jpg">
+             <img src="../img/Logo.jpg">
          </div>
 
        <ul>
@@ -28,20 +28,126 @@
       <br>
       <br>
       
-      <h2>Top E-Sports Leagues</h2>
-      <div class="teamlist">
+       <br>
+      <br>
+      <br>
+      <br>
+      
+<h2>Top E-Sports Leagues</h2>  
+
+ <div class="teamList">
       <ul>
+      		<h3>A</h3>
+		
+      		<br><br>
+      		<h3>B</h3>
+      		
+      		<br><br>
+       		<h3>C</h3>
+       		
+      		<br><br>
+      		
+      		<h3>D</h3>
       		<li><a href="/league.jsp">Dota 2 League</a></li>
-      		<br>
-      		<br>
-      		<li><a href="#">League 2</a></li>
-      		<br>
-      		<br>
-      		<li><a href="#">League 3</a></li>
-      		<br>
-      		<br>
-      </ul>
-      </div>
+      		
+      		<br><br>
+      		
+      		<h3>E</h3>
+      		<li><a href="#">EPL EU</a></li>
+      		<li><a href="#">EPL NA</a></li>
+      		
+      		<br><br>
+      		
+      		<h3>F</h3>
+      		
+      		<br><br>
+      		
+      		<h3>G</h3>
+      		
+      		<br><br>
+      		
+      		<h3>H</h3>
+      		
+      		<br><br>
+      		
+      		<h3>I</h3>
+      		
+      		<br><br>
+      		
+      		<h3>J</h3>
+      		
+      		<br><br>
+      		
+      		<h3>K</h3>
+      		
+      		<br><br>
+      		
+      		<h3>L</h3>
+      		<li><a href="#">LCS EU</a></li>
+      		<li><a href="#">LCS NA</a></li>
+      		
+      		<br><br>
+      		
+      		<h3>M</h3>
+      		
+     		<br><br>
+     		
+     		<h3>N</h3>
+     		
+     		
+      		<br><br>
+      		
+      		<h3>O</h3>
+      		<li><a href="#">OWL</a></li>
+      		
+      		<br><br>
+      		
+      		<h3>P</h3>
+      		
+      		
+      		<br><br>
+      		
+      		<h3>Q</h3>
+      		
+      		<br><br>
+      		
+      		<h3>R</h3>
+      		
+      		<br><br>
+      		
+      		
+      		<h3>S</h3>
+      		
+      		<br><br>
+      		
+      		<h3>T</h3>
+      		
+      		<br><br>	
+      		
+      		<h3>U</h3>
+      		
+      		<br><br>
+      		
+      		<h3>V</h3>
+      		
+      		<br><br>
+      		
+      		<h3>W</h3>
+      		
+      		<br><br>
+      		
+      		<h3>X</h3>
+      		
+      		<br><br>
+      		
+      		<h3>Y</h3>
+      		
+      		<br><br>
+      		
+      		<h3>Z</h3>
+ 			
+      	</ul>
+      </div>    
       
       
        &nbsp; 

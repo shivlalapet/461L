@@ -1,71 +1,124 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
 <html>
+      <head>
+	  <meta charset="utf-8">
+	  <title>Esports.com</title>
 
- <head>  
-  <title>ECentral</title>
-  <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
- </head>
+      <link rel="stylesheet" type="text/css" href="style1.css">
+      </head>
 
- <body>
+<body bgcolor=black>
+      <div class="main">
+          <div class="logo">
+             <img src="Logo.jpg">
+         </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-flow">
-      ECentral
-    </div>
 
-    <div class="col-flow">
-      <div class="btn-group" role="group" aria-label="Basic example">
-		<button type="button" class="btn btn-secondary">Leauges</button>
-		<button type="button" class="btn btn-secondary">Games</button>
-		<button type="button" class="btn btn-secondary">Players</button>
-	  </div>
-    </div>
-    
-    <div class="col-md-left-side">
-      <nav class="navbar navbar-light bg-light">
-		<form class="form-inline">
-		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
-	 </nav>
-    </div>
+       <ul>
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="/teamslist.jsp">Teams</a></li>
+           <li><a href="/leagueslist.jsp">Leagues</a></li>
+           <li id="playertab"><a href="/playerslist.jsp">Players</a></li>
+           <li><a href="/search.jsp">Search</a></li>
 
-	</div>
-	<div class="row">
-	 <div class = "col">
-	 video and paragraph 
-	 </div>
+           </ul>
+      </div>
+      <br>
+      <br>
 
-	 <div class="col">
-		<ul class="list-unstyled">
-		<li class="media">
-		<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-		<div class="media-body">
-		<h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	</div>
+      <br>
 
-	</li>
-	<li class="media my-4">
-		<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-		<div class="media-body">
-		<h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      <br>
+      <br>
+      <br>
+         <left>
+
+       <div class="Video">
+		<iframe
+			src="https://player.twitch.tv/?channel=puppey&muted=true&autoplay=true"
+			height="360"
+			width="640"
+			frameborder="0"
+			scrolling="no"
+			allowfullscreen="true"
+			align = "right">
+
+		</iframe>
+
+      </div>
+
+
+      <br><br>
+
+
+      <h2> Top News: </h2> 
+
+      <div class = "info">
+
+	  <div class = "news">
+
+        <nav>
+
+            <ul style = "list-style-type:none">
+
+                <li><a href="https://venturebeat.com/2018/12/09/call-of-duty-world-league-levels-up-its-esports-competition-with-5v5-combat/">Call of Duty World League levels up its esports competition with 5v5 combat</a></li>
+				<br>
+				<br>
+                <li><a href="https://dotesports.com/league-of-legends/news/how-g2-can-make-all-their-shiny-new-pieces-fit">How G2 can make all their shiny new pieces fit</a></li>
+				<br>
+                <br>
+
+                <li><a href="https://www.digitaltrends.com/gaming/magic-the-gathering-enters-esports-with-10-million-prize-pool/">‘Magic: The Gathering’ enters esports relevance with $10 million prize pool</a></li>
+				<br>
+				<br>
+
+                <li><a href="http://www.espn.com/esports/story/_/id/25495912/australian-top-laner-jackson-pabu-pavone-proves-one-one-tournament">Australian top laner Pabu makes his name at League of Legends All-Star event</a></li>
+				<br>
+				<br>
+
+                <li><a href="https://esportsobserver.com/dreamhack-x-teo-recap-2/">Esports Discussions Shed Light on Players as Employees, the Agency Space, and Handling Stress</a></li>
+                <br><br>
+
+                <li><a href="https://esportsobserver.com/owl-road-trips-2019/">The Overwatch League is Going on the Road in 2019</a></li>
+                <br> 
+
+                <br>
+            </ul>
+		</nav>
+
 		</div>
-	</li>
-	<li class="media">
-		<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-		<div class="media-body">
-		<h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
 		</div>
-	</li>
-	</ul>
-	 </div>
-  </div>
-</div>
- </body>
+      <br>
+		<br></left>
+		
+		<br>      
+       <br>
+       <br>
+       <br>
+       <br>
+        <br><br><br><br><br><br><br><br><br>
+       <br><br>
+       <br><br>
+       <br><br>
+       <br><br>
+       <br><br>
+       <br><br><br> <br>
+		
+		<center>
+		<img src="tourney1.jpg" style="height:40%; width:80%">
+      
+       &nbsp; 
+       <br>      
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        </center>
+</body>
 </html>

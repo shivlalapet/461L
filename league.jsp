@@ -9,7 +9,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="Logo.jpg">
+             <img src="../img/Logo.jpg">
          </div>
 
        <ul>
@@ -29,8 +29,8 @@
 
          <center>
        <div class="Player">
-        <img src="maxresdefault.jpg">
-        <p> Genre: Dota 2 esports tournament <br> Frequency: Annual <br> Current Champion: Team Liquid </p>
+        <img src="../img/maxresdefault.jpg">
+        <p> Genre: Dota 2 esports tournament <br> Frequency: Annual <br> Defending Champion: Team Liquid </p>
       </div>
 
       <br><br>
@@ -49,13 +49,16 @@ The fourth International, this time held at the larger Seattle venue KeyArena in
       <h4> 2018: Team Liquid</h4>
       <h4> 2017: LGD Gaming</h4>
       <h4> 2016: Complexity Gaming </h4>
+      
+      
 
+     
 
       <br>
       <div class="links">
-      <img src="facebook.jpg.png">
-      <img src="twitter.jpg.png">
-      <img src="twitch.jpg.png">
+      <img src="../img/facebook.jpg.png">
+      <img src="../img/twitter.jpg.png">
+      <img src="../img/twitch.jpg.png">
       </div>
       
       <br>

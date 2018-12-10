@@ -14,7 +14,7 @@
     	{
  
       	title:{
-      		text: "Career Earnings - 2018"
+      		text: "Earnings - 2018"
       	},
       	
       	axisX: {
@@ -54,13 +54,52 @@
   }
   </script>
   <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  
+  <script type="text/javascript">
+  		window.onload = function () {
+    	var chart = new CanvasJS.Chart("career",
+    	{
+ 
+      	title:{
+      		text: "Career Earnings"
+      	},
+      	
+      	axisX: {
+            valueFormatString: "YYYY",
+            interval:1,
+            intervalType: "year"
+          },
+          
+        axisY:{
+            includeZero: false
+       
+          },  
+       	
+        data: [
+      	{
+        type: "line",
+ 
+        dataPoints: [
+        { x: new Date(2015, 01, 1), y: 646175.80 },
+        { x: new Date(2016, 01, 1), y: 250795 },
+        { x: new Date(2017, 01, 1), y: 658860.80 },
+        { x: new Date(2018, 01, 1), y: 1730083.34},
+        ]
+      }
+      ]
+    });
+    chart.render();
+  }
+  </script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  
       
 </head>
 
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="Logo.jpg">
+             <img src="../img/Logo.jpg">
          </div>
        
          
@@ -72,6 +111,7 @@
            <li><a href="/search.jsp">Search</a></li>
            </ul>
       </div>
+      <br>
 
       <br>
       <br>
@@ -91,7 +131,7 @@
            
        <center>
        <div class="Player">
-        <img src="Sumail.jpg">
+        <img src="../img/Sumail.jpg">
         <p> Name: Sumail Hassan <br> Team: Evil Geniuses <br> World Ranking: #7 </p>
       </div>
 
@@ -157,32 +197,51 @@
       <br>
       <br>
       
-      <!-- Line Graph for earnings over career (up to 10yrs ago?)-->
+      <!-- Line Graph for earnings in 2018-->
        <div id="chartContainer" style="height:35%; width:50%;"></div>
       <br>
       <br>
       <br>
-      <p style="color:white; text-align: center;">Total Money Earned: $646,175.80</p>
-      <br>
-      <br>
-      <br>
-	  <br>
-	  <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-	  <br>
-	  <br>
-      <br>
-      <br>
-      <br>
+      <br> <br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br> <br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      
+             <div id="career" style="height:35%; width:50%;"></div>
+      
+      
+      <br> <br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br> <br>
+      <br><br>
+	  <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+	  <br><br>
+      <br><br>
       
       <!-- Player's twitch stream -->
       <div class="video">
-      <iframe src="https://www.twitch.tv/suma1l/?channel=puppy&muted=true&autoplay=true"
+      <iframe src="https://www.twitch.tv/ninja/?channel=ninja&muted=true&autoplay=true"
     	height="360"
     	width="440"
     	frameborder="0"
@@ -196,22 +255,34 @@
       <br>
       <div class="links">
 	<a href="https://www.facebook.com/demondoto">
-      <img src="facebook.jpg.png">
+      <img src="../img/facebook.jpg.png">
 	</a>
 	<a href="https://www.twitter.com/sumaaaail?lang=en">
-      <img src="twitter.jpg.png">
+      <img src="../img/twitter.jpg.png">
 	</a>
 	<a href="https://www.twitch.tv/sumaildoto">
-      <img src="twitch.jpg.png">
+      <img src="../img/twitch.jpg.png">
 	</a>
       </div>
       
       </center>
       
+      <br>      
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
       <br>
-      <h2> References: <h2>
+      <h2> URLs: <h2>
       <div class="info">
-      <p> 1. Sumail "SumaiL" Hassan - Dota 2 Player<br>Last Checked 2018-11-1 6:35 PM </p>
+      <!--  
+      <p> 1. Sumail "SumaiL" Hassan - Dota 2 Player<br>Last Checked 2018-11-1 6:35 PM </p>-->
       <a id="player1link" href="https://www.esportsearnings.com/players/14196-sumail-hassan">https://www.esportsearnings.com/players/14196-sumail-hassan</a>
 
        &nbsp; 

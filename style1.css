@@ -8,15 +8,11 @@
     clear: both;
 }
 
-.column {
-    float: left;
-    padding: 33.33%;
-    padding: 10px;
-    color: white;
-}
+
 .column ul li{
      display: inline-block;
      color: white;
+     text-align: left;
 }
 
 .column ul li a{
@@ -55,7 +51,7 @@ h2{
 	}  
 
 h3{
-	color: blue;
+	color: wheat;
 	text-align: left;
 }
 
@@ -68,8 +64,16 @@ p{
 	color:white;
 }
 
+#player1{
+	text-align: left;
+}
+
+a{
+	color: white;
+}
+
 ul{
-   float:right;
+   float: left;
    list-style-type: none;
    margin-top: 25px;
 }
@@ -100,7 +104,8 @@ background-color: #fff;
 .logo img{
      float: left;
      width: 200px;
-     height: 200;
+     height: 175px;
+     
 }
 
 .links img{
@@ -110,11 +115,20 @@ background-color: #fff;
 }
 
  .main{
-      margin: auto;
+      margin:auto;    
 }
+
+.main ul{
+	float: right;
+   list-style-type: none;
+   margin-top: 25px;	
+}
+
+
 
 .Player img{
       align: middle;
+      
 }
 
 .Player p{
@@ -154,6 +168,12 @@ background-color: #fff;
       align: middle;
 }
 
+#team1 img{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
 .table td{
 	border: 1px solid wheat;
     border-color: wheat;
@@ -179,6 +199,7 @@ background-color: #fff;
 .teamlist ul li{
      display: inline-block;
      color: white;
+     align: left;
 }
 
 .teamlist ul li a{
@@ -202,8 +223,13 @@ background-color: #fff;
 #chartContainer{
 	height: 35%; 
 	width: 50%;
-	background-color:black;
 }
+
+#career{
+	height: 35%; 
+	width: 50%;
+}
+
 
 <!-- Progress bar -->
 .wrapper {

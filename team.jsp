@@ -46,17 +46,21 @@
 
       <h2> Achievements: </h2>
       <div class="info">
-      <h4> 1st Place: Dota Pit League Season 5, The Manila Masters, Canada East Coast Championship 4, Curleh Circuit Finale</h4>
-      <h4> 2nd Place: Evolution 2017</h4>
-      <h4> 3rd Place: The Kiev Major</h4>
+      <h4> Dota Pit League Season 5 - 1st</h4>
+      <h4>The Manila Masters - 1st</h4>
+      <h4>Canada East Coast Championship 4 - 1st</h4>
+      <h4>Curleh Circuit Finale - 1st</h4>
+      
+      <h4> Evolution 2017 - 2nd</h4>
+      <h4> The Kiev Major - 3rd</h4>
       </div>
       <br>
 
       <h2> Team Members: </h2>
       <table class="table">
-	<tr><td>Position</td><td>Id</td><td>Name</td><td>Country</td></tr>
+	<tr><td>Position</td><td>Username</td><td>Name</td><td>Country</td></tr>
 	<tr><td>Player</td><td>Arteezy</td><td>Artour Babaev</td><td>Canada</td></tr>	
-	<tr><td>Player</td><td>SumaiL</td><td>Sumail Hassan</td><td>Pakistan</td></tr>
+	<tr><td>Player</td><td>SumaiL</td><td><a href="/player.jsp">Sumail Hassan</a></td><td>Pakistan</td></tr>
 	<tr><td>Player</td><td>s4</td><td>Gustav Magnusson</td><td>Sweden</td></tr>
 	<tr><td>Player</td><td>Cr1t</td><td>Andres Nielsen</td><td>Denmark</td></tr> 
 	<tr><td>Player</td><td>Fly</td><td>Tal Aizik</td><td>Israel</td></tr>
@@ -68,6 +72,42 @@
       
       <br>
       <br>
+       
+	  <!-- "Progress" Circle for win percentage-->
+	  <div class="wrapper" data-anim="base wrapper">
+  	<div class="circle" data-anim="base left"></div>
+  	<div class="circle" data-anim="base right"></div>
+	</div>		
+	  <br>
+	  <br>
+	  <br>
+      <br>
+      <br>
+      <br>
+      
+      <!-- Line Graph for earnings over span, update to fit team-->
+       <div id="chartContainer" style="height:35%; width:50%;"></div>
+      <br>
+      <br>
+      <br>
+      <p style="color:white; text-align: left;">Total Money Earned: $646,175.80</p>
+      <br>
+      <br>
+      <br>
+	  <br>
+	  <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+	  <br>
+	  <br>
+      <br>
+      <br>
+      <br>
+      
 
       <div class="links">
       <img src="facebook.jpg.png">
