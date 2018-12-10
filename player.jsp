@@ -5,6 +5,8 @@
 <html>
       <head><title>Esports.com</title>
       <link rel="stylesheet" type="text/css" href="style1.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
       
@@ -54,7 +56,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="../img/Logo.jpg">
+             <a href="/splash.jsp"><img src="../img/Logo.jpg"></a>
          </div>
        
          
@@ -87,8 +89,9 @@
        <center>
        <div class="Player">
         <img src="../img/Sumail.jpg">
-        <p> Name: Sumail Hassan <br> Team: Evil Geniuses <br> World Ranking: #7 </p>
+        <p> Name: Sumail Hassan <br> Team: <a href="/team.jsp">Evil Geniuses</a> <br> World Ranking: #7 </p>
       </div>
+      </center>
 
       <br><br>
        
@@ -140,21 +143,25 @@
 	  %>
 
 	  
-	  <!-- "Progress" Circle for win percentage-->
-	  <div class="wrapper" data-anim="base wrapper">
-  	<div class="circle" data-anim="base left"></div>
-  	<div class="circle" data-anim="base right"></div>
-	</div>		
-	  <br>
-	  <br>
-	  <br>
-      <br>
-      <br>
-      <br>
-      
-      <!-- Line Graph for earnings in 2018
-       <div id="chartContainer" style="height:35%; width:50%;"></div>
-      -->
+	  <!-- "Progress" Bar for win percentage-->
+  <div class="w3-container">
+
+<h2>Win Percentage - 2018</h2>
+<p>1st Place: 25%</p>
+<div class="w3-light-grey">
+  <div class="w3-yellow" style="height:24px;width:25%"></div>
+</div><br>
+<p>2nd Place: 22.73%</p>
+<div class="w3-light-grey">
+  <div class="w3-gray" style="height:24px;width:22.73%"></div>
+</div><br>
+<p>3rd Place: 29.54%</p>
+<div class="w3-light-grey">
+  <div class="w3-brown" style="align:left; height:24px;width:29.54%"></div>
+</div>
+
+</div>	
+
       <br>
       <br>
       <br>
@@ -162,8 +169,7 @@
       <br><br>
 	  <br><br>
       <br><br>
-      <br><br>
-      <br><br>
+      <center>
       
       <div id="career" style="height:35%; width:50%;"></div>
       
@@ -181,9 +187,7 @@
 	  <br><br>
       <br><br>
       <br><br>
-      <br><br>
-	  <br><br>
-      <br><br>
+      
       
       <!-- Player's twitch stream -->
        <div class="Video">
@@ -207,7 +211,7 @@
 	<a href="https://www.twitter.com/sumaaaail?lang=en">
       <img src="../img/twitter.jpg.png">
 	</a>
-	<a href="https://www.twitch.tv/sumaildoto">
+	<a href="https://www.twitch.tv/sumayyl">
       <img src="../img/twitch.jpg.png">
 	</a>
       </div>
@@ -237,14 +241,7 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-   
+    
         
 
 </body>

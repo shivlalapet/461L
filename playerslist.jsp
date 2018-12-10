@@ -12,7 +12,7 @@
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="../img/Logo.jpg">
+             <a href="/splash.jsp"><img src="../img/Logo.jpg"></a>
          </div>
 
        <ul>

@@ -4,13 +4,15 @@
 <html>
       <head><title>Esports.com</title>
       <link rel="stylesheet" type="text/css" href="style1.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       </head>
 
 
 <body bgcolor=black>
       <div class="main">
           <div class="logo">
-             <img src="../img/Logo.jpg">
+             <a href="/splash.jsp"><img src="../img/Logo.jpg"></a>
          </div>
 
        <ul>
@@ -73,23 +75,30 @@
       <br>
       <br>
        
-	  <!-- "Progress" Circle for win percentage-->
-	  <div class="wrapper" data-anim="base wrapper">
-  	<div class="circle" data-anim="base left"></div>
-  	<div class="circle" data-anim="base right"></div>
-	</div>		
+	  <!-- "Progress" Bars for win percentage-->
+	  <div class="w3-container">
+
+<h2>Win Percentage - 2018</h2>
+<p>1st Place: 23.80%</p>
+<div class="w3-light-grey">
+  <div class="w3-yellow" style="height:24px;width:23.8%"></div>
+</div><br>
+<p>2nd Place: 17.39%</p>
+<div class="w3-light-grey">
+  <div class="w3-gray" style="height:24px;width:17.39%"></div>
+</div><br>
+<p>3rd Place: 23.80%</p>
+<div class="w3-light-grey">
+  <div class="w3-brown" style="height:24px;width:23.8%"></div>
+</div>
+
+</div>	
 	  <br>
 	  <br>
 	  <br>
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-	  <br>
+     
       
       <center>
       <div class="Video">
